@@ -2,6 +2,8 @@
 
 Live LED market ticker for the bottom of a Mac or Windows desk.
 
+Live site: https://marketticker.app
+
 ## Netlify
 
 1. In Netlify, choose **Add new site** → **Import an existing project** → **GitHub**.

@@ -5,3 +5,13 @@
 [build.environment]
   NODE_VERSION = "22"
   NETLIFY = "true"
+
+# Apex is the public site. www and the Netlify hostname fold into it.
+[[redirects]]
+  from = "/*"
+  to = "https://marketticker.app/:splat"
+  status = 301
+  force = true
+
+  [redirects.conditions]
+    Host = ["www.marketticker.app", "marketticker.netlify.app"]

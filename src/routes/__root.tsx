@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const SITE = "https://marketticker.netlify.app";
+const SITE = "https://marketticker.app";
 const APP_NAME = "Tape";
 const DESCRIPTION =
   "Live LED market ticker for gold, silver, crypto, currencies, and stock indexes. Pin it to the bottom of a Mac or Windows desk.";
