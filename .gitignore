@@ -1,0 +1,15 @@
+node_modules
+.vercel
+.output
+dist
+.netlify
+screenshots
+.grok
+.env
+.env.*
+*.log
+.node_modules.lock
+attachments
+artifacts
+.project_id
+AGENTS.md
